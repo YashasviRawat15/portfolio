@@ -8,7 +8,7 @@ body {
 #navBar{
     height: 10%;
     width: 100%;
-    background-color: #fcf9fa;
+    background-color: #fcf9fa !important;
     display: flex;
     position: fixed;
     right: 0px;
@@ -16,6 +16,7 @@ top: 0px;
     align-items: center;
     justify-content: center;
     margin-right: 0;
+    z-index: 1;
 }
 
 #navBar img{height: 50px;
@@ -116,7 +117,8 @@ top: 10px}
     float: right;
     padding-left: 30px;
     position: relative;
-    top: -80px
+    top: -80px;
+    
 }
 
 #education{
