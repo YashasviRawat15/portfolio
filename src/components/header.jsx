@@ -8,7 +8,7 @@ function Header(){
         
         
           <div id="navBar" className={state ? "#navBar active" : "#navBar"}  >
-          <a href="#home"><img src={image} alt="Logo" />  </a>
+          <a href="#page"><img src={image} alt="Logo" />  </a>
           <ul> 
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
